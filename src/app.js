@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path');
 const app = express();
 const hbs = require('hbs');
-const port = 3000
+const port = process.env.PORT || 3000;
 
 const staticpath = path.join(__dirname,"../public");
 const viewspath = path.join(__dirname, '../template/views');
@@ -36,5 +36,5 @@ app.get('*', (req,res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`listening to ${port}`)
 })
