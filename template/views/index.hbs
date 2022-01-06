@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {{>headlink}}
+</head>
+
+<body onload="msg()">
+    <!-- navbar -->
+   {{>navbar}}
+
+    <!-- Hero section -->
+    <div class="container_fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <h1> <span style="color: #9b59b6;"> Welcome </span></h1>
+                        <h2> Get latest<span style="color: #9b59b6;"> MOVIES </span> of your city</h2>
+                        <a href="/movie"> <button> Know More! </button></a>
+                    </div>
+                    <!-- right side div -->
+                    <div class="col-md-6 col-12 main_header_right about_img">
+
+                        <img src="/image/landing.jpg" alt="" class="img_fluid">
+
+                    </div>
+                </div>
+                <!-- latest movie -->
+                <div class="latest">
+                    <h1>Latest Movie In your Town</h1>
+                    <div class="moviecard">
+                        <div class="movieimage">
+                            <img src="/image/spider.jpg" alt="oops!">
+                        </div>
+                        <div class="movieinfo">
+                            <h1>SpiderMan:No Way Home</h1>
+                            <h3>cast: Tom Holland, Zandya</h3>
+                            <h3>Studio:Marvel</h3>
+                            <h3>Release Year: 2021</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloremque consectetur
+                                numquam soluta perspiciatis sapiente voluptatem quas ducimus voluptatibus labore
+                                assumenda iusto, culpa esse, nostrum eum porro quos qui ab.</p>
+                        </div>
+                    </div>
+                    <div class="moviecard2">
+                        <div class="movieimage2">
+                            <img src="/image/download.jpeg" alt="oops!">
+                        </div>
+                        <div class="movieinfo2">
+                            <h1>Batman Vs Superman</h1>
+                            <h3>cast: Ben Afflex,Canery Haviel, Gal Gadot</h3>
+                            <h3>Studio:DC</h3>
+                            <h3>Release Year: 2021</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloremque consectetur
+                                numquam soluta perspiciatis sapiente voluptatem quas ducimus voluptatibus labore
+                                assumenda iusto, culpa esse, nostrum eum porro quos qui ab.</p>
+                        </div>
+                    </div>
+                    <div class="moviecard3">
+                        <div class="movieimage3">
+                            <img src="/image/download (1).jpeg" alt="oops!">
+                        </div>
+                        <div class="movieinfo3">
+                            <h1>Doctor Strange</h1>
+                            <h3>cast: Benerdik</h3>
+                            <h3>Studio:Marvel</h3>
+                            <h3>Release Year: 2021</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloremque consectetur
+                                numquam soluta perspiciatis sapiente voluptatem quas ducimus voluptatibus labore
+                                assumenda iusto, culpa esse, nostrum eum porro quos qui ab.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-section -->
+    {{>footer}}
+
+    <!-- bootstrap script -->
+    {{>script}}
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headlink}}
+</head>
+
+<body>
+    <!-- navbar -->
+    {{>navbar}}
+
+    {{!-- hero section --}}
+    <div class="container_fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="error">
+                    <div class="errorImage">
+                        <img src="/image/error.jpg" alt="">
+                    </div>
+                    <div class="errorTxt">
+                        <h1>ERROR <span style="color: #9b59b6;">404</span> OCCURED</h1>
+                        <h3>Page not found!</h3>
+                        {{!-- <button><a href="/index">   </a> </button> --}}
+                         <a href="/index"> <button> Go to Homepage </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-section -->
+    {{>footer}}
+
+    <!-- bootstrap script -->
+    {{>script}}
+</body>
+
+</html>

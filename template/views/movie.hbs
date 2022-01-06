@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headlink}}
+</head>
+
+<body>
+   {{>navbar}}
+    <div class="header">
+        <h1>welcome to my <span style="color: #9b59b6">IMBD</span> app</h1>
+    </div>
+
+    <div class="form">
+        <div class="search">
+            <input type="text" id="ShowName" placeholder="Enter your show"><button id="btn">search</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row showitems">
+            <!-- <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="movie_card">
+                    <div class="poster">
+                        <img src="image/logo.png" alt="soory">
+                    </div>
+                    <h2>${name}</h2>
+                    <div class="card-body">
+                        <h3>Rank:- ${rank}</h3>
+                        <h3>Lanch year:- ${year}</h3>
+                        <p>Caste:${Caste} </p>
+                    </div>
+                    <div class="button">
+                        <button><i class="far fa-play-circle"></i>WACH NOW</button>
+                        <button><i class="fas fa-arrow-circle-down"></i>Download</button>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+    </div>
+
+    <!-- footer-secton -->
+  {{>footer}}
+    
+    <!-- script -->
+   {{>script}}
+</body>
+
+</html>
